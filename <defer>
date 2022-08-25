@@ -1,0 +1,15 @@
+What exactly does defer do?
+.
+If you just started practicing web-development, you probably came across something called defer and it might've confused you a bit. WHY DO I EVEN NEED IT ? Can I not create my HTML file without it? Well... maybe yes, but definetily not recommended.
+
+WHAT IS DEFER?
+
+defer is a boolean attribute.This Boolean attribute is set to indicate to a browser that the script is meant to be executed after the document has been parsed, but before firing DOMContentLoaded.
+
+English Please:
+    BOOLEAN?   : Boolean, simply means, YES or NO. In this case, presence of defer attribute would mean yes and absence would mean a no automatically.
+    ATTRIBUTE? : Attributes in HTML are some keywords which would provide extra information about the HTML element. In this case, <script> is the HTML element and defer                  is the attribute which gives extra information about the element.
+    
+okay.. but what information exactly?
+
+defer attribute is going to inform browser that the script (
